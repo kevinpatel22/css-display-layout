@@ -1,0 +1,64 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    background-color: rgb(51,51,51);
+    color: white;
+    padding: 10px;
+    margin: 1px;
+}
+.gallery p {
+    background-color: rgb(160,251,211);
+    padding: 6px;
+    margin: 0 10px;
+}
+span {
+     text-decoration: underline yellow;
+     font-weight: bold;
+}
+ul {
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+}
+li {
+    display: inline-block;
+    background-color: lightgray;
+    padding: 5px;
+}
+li > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.gallery {
+    margin: 40px;
+}
+.img {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+main div div {
+    display: inline-block;
+    width: 32%;
+}
+.img img {
+    width: 100%;
+}
+.gallery div div p {
+    background-color: gold;
+    text-align: center;
+    padding: 5px;
+    margin: 2px 0;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
